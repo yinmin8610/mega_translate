@@ -11778,4 +11778,10 @@ fieldset:disabled .btn {
   text-indent: 2rem;
 }
 
+@media (min-width: 768px) {
+  .fs-md-4 {
+    font-size: 1.5rem !important;
+  }
+}
+
 /*# sourceMappingURL=all.css.map */
