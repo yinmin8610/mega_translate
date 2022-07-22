@@ -11775,6 +11775,10 @@ fieldset:disabled .btn {
 }
 
 .text-indent {
+  text-indent: 1rem;
+}
+
+.text-indent-2 {
   text-indent: 2rem;
 }
 
@@ -11808,6 +11812,29 @@ fieldset:disabled .btn {
   background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.55)));
   background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.55));
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.55));
+}
+
+.map {
+  height: 350px;
+}
+
+@media (min-width: 768px) {
+  .map {
+    height: 550px;
+  }
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover > .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
 }
 
 @media all and (min-width: 992px) {
